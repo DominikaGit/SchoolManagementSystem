@@ -125,13 +125,15 @@
         ((Kimtoo.ButtonItem)(resources.GetObject("navigtionMenu1.Items3"))),
         ((Kimtoo.ButtonItem)(resources.GetObject("navigtionMenu1.Items4"))),
         ((Kimtoo.ButtonItem)(resources.GetObject("navigtionMenu1.Items5"))),
-        ((Kimtoo.ButtonItem)(resources.GetObject("navigtionMenu1.Items6")))};
+        ((Kimtoo.ButtonItem)(resources.GetObject("navigtionMenu1.Items6"))),
+        ((Kimtoo.ButtonItem)(resources.GetObject("navigtionMenu1.Items7")))};
             this.navigtionMenu1.ItemTextMargin = 8;
             this.navigtionMenu1.Location = new System.Drawing.Point(0, 0);
             this.navigtionMenu1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.navigtionMenu1.Name = "navigtionMenu1";
             this.navigtionMenu1.Size = new System.Drawing.Size(217, 568);
             this.navigtionMenu1.TabIndex = 2;
+            this.navigtionMenu1.OnItemSelected += new Kimtoo.NavigtionMenu.OnSelectEventHandler(this.navigtionMenu1_OnItemSelected);
             // 
             // frmMain
             // 
